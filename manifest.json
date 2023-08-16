@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+      "default_popup": "recolors.html",
+      "default_title": "ReColorsBETA"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js", "background.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAixNklv/iiJwGNpJ+9q9FBfZbLLcK/Kfwmtbbu7HVxEKI7YNmVW6HlJqV9zDCAP5pzfCRl/Z+DINM2USWg9Xf+vW3ax6Jr5x75UDgSUjtvrXjbBrXaiti1Avsno0AOL6WKwxaG/M29K07qT0gH0tJkeHNXvFKdmexaX9hWiy8mFLDnAcPDVd8dwGNGDclSIN0smbBQl2E3VDdqG/6bFUcgpJth1t/dtf7XyttBtWcyGqjAUgqtxLYFFRWmxsoS0PZYzHsyeEybSEvQoEarAHktSPXdO/cvVbRatz3GKZ4E/IyEOY/uDc1/sYuJwIr1FPW4DQLMjBPFlXnmSPLp/FiDwIDAQAB",
+   "manifest_version": 2,
+   "name": "ReColors",
+   "permissions": [ "storage", "*://*/*", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
